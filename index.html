@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 500px;
+            width: 300px;
+            border-radius: 10px;
+            border: 2px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: black;
+        }
+
+        .screen {
+            height: 40px;
+            width: 200px;
+            margin-left: 50px;
+            margin-top: 30px;
+            /* margin-right: auto; */
+            /* padding: 2px 3px 2px 2px; */
+        }
+
+        .btn {
+            display: flex;
+            height: 70px;
+
+            /* background-color: black; */
+            /* border: 1px solid black; */
+            justify-content: space-evenly;
+
+        }
+
+        button {
+            background-color: black;
+            border: 2px solid white;
+            color: aliceblue;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            font-size: 20px;
+        }
+
+        #btnnn {
+            background-color: rgb(255, 136, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- main container -->
+    <div class="container">
+        <input type="text" class="screen">
+
+        <div class="btn">
+            <button type="button">AC</button>
+            <button type="button">%</button>
+            <button type="button">X</button>
+            <button type="button">/</button>
+
+        </div>
+        <div class="btn">
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button">*</button>
+
+
+        </div>
+        <div class="btn">
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button">-</button>
+
+        </div>
+        <div class="btn">
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button">+</button>
+
+        </div>
+        <div class="btn">
+            <button type="button">00</button>
+            <button type="button">0</button>
+            <button type="button">.</button>
+            <button type="button" id="btnnn">=</button>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
